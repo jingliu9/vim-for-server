@@ -47,6 +47,14 @@ set tm=500
 set cursorcolumn
 set cursorline
 
+" column
+set colorcolumn=80
+" let &colorcolumn="80,".join(range(120,999),",")
+" highlight ColorColumn ctermbg=0 guibg=lightgrey
+" ctermbg=242 guibg=Grey40
+" highlight ColorColumn term=bold ctermbg=4 guibg=DarkBlue
+
+
 
 " movement
 set scrolloff=7                 " keep 3 lines when scrolling
